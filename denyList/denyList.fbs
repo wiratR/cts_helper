@@ -1,0 +1,20 @@
+namespace TransCity;
+file_identifier "DNYS";
+
+table DenyList {
+  deny_list_entries: [DenyListEntry];
+  deny_reasons: [DenyReason];
+}
+
+table DenyListEntry {
+  surrogate_pan: string (key);
+  deny_reasons_id: [uint8];
+  removed: bool = false;   // ใช้ default แทน (optional)
+}
+
+table DenyReason {
+  id: uint8 (key);
+  value: string;
+}
+
+root_type DenyList;

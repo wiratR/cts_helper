@@ -1,0 +1,11 @@
+<dsi:SignedInfo xmlns:dmb="http://www.thales.dc/DeviceMessageBatch" xmlns:dsi="http://www.w3.org/2000/09/xmldsig#" xmlns:dtf="http://www.thales.dc/DeviceTransactionFiles" xmlns:dtt="http://www.thales.dc/TicketingTypes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dsi:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <dsi:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <dsi:Reference URI="">
+      <dsi:Transforms>
+        <dsi:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+      </dsi:Transforms>
+      <dsi:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+      <dsi:DigestValue>j33376zhYeQHjdry/xFe8IGNlb8C46RkqHsJkvUsyLY=</dsi:DigestValue>
+    </dsi:Reference>
+  </dsi:SignedInfo>

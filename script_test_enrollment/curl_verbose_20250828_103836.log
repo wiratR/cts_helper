@@ -1,0 +1,4 @@
+* Could not resolve host: vault.preprod-mangmoom.com
+* Closing connection
+curl: (6) Could not resolve host: vault.preprod-mangmoom.com
+curl: unknown --write-out variable: 'ssl_cipher'
